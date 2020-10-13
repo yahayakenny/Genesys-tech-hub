@@ -1,0 +1,120 @@
+.dev-studio {
+  padding: 0px, 10px;
+  border: 1px solid grey;
+}
+
+.logo {
+  width: 70%;
+}
+
+.upper-nav {
+  background-color: white;
+}
+
+.lower-nav {
+  background-color: #17255a;
+}
+
+.navbar.upper-nav {
+  padding: 30px 20px;
+}
+
+.third-nav {
+  background-color: #eac435;
+  color: white;
+  padding: 30px 40px;
+}
+
+.third-nav h4 {
+  /* font-family: 'roboto'; */
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.third-nav h6 {
+  font-family: 'nunito';
+}
+
+.hero h1 {
+  font-weight: 900;
+  font-size: 67px;
+  letter-spacing: 0.15 px;
+  line-height: 80px;
+  /* font-family: 'roboto'; */
+}
+
+.video {
+  width: 100%;
+}
+
+.product-images {
+  position: relative;
+}
+
+.product {
+  position: absolute;
+  right: 0px;
+  top: -60px;
+  width: 50%;
+}
+
+.dev {
+  position: absolute;
+  right: 210px;
+  width: 50%;
+  top: -60px;
+}
+
+.photo {
+    width: 50%;
+    
+}
+
+.learning, .eligible, .culture, .fun, .experts, .classroom{
+    width: 100%;
+
+}
+
+
+
+.curriculum, .design {
+    width: 70%;
+
+}
+
+.design-container {
+    background-color: #EEEEEE;
+    padding: 100px 0px;
+}
+
+.padding {
+    padding: 100px 0px;
+}
+
+.culture-container {
+    background-color: #F5772F;
+    color: white;
+}
+
+.knowledge-container {
+    background-color: #17255a;
+    color: white;
+    padding: 100px 0px;
+}
+
+
+@media(max-width: 767px){
+    .product {
+        position: absolute;
+        right: 0px;
+        top: -60px;
+        width: 50%;
+    }
+      
+    .dev {
+        position: absolute;
+        right: 100px;
+        width: 50%;
+        top: -60px;
+    }
+}
