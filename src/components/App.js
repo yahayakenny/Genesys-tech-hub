@@ -1,28 +1,27 @@
 import React from 'react';
-import { Hero } from './Hero';
-import NavBar from './NavBar';
-import People from './People';
-import Learning from './Learning';
-import Curriculum from './Curriculum';
-import Design from './Design';
-import { Eligible } from './Eligible';
-import { Culture } from './Culture';
-import Fun from './Fun';
-
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import LandingPage from './LandingPage/LandingPage';
+import Faq from './Faq/Faq';
+import Journal from './Journal/Journal';
+import ProductDesigner from './ProductDesigner/ProductDesigner';
+import SoftwareDeveloper from './SoftwareDeveloper/SoftwareDeveloper';
+import Apply from './Apply/Apply';
 
 export const App = () => {
     return (
-        <div>
-            <NavBar/>
-            <Hero/>
-            <People/>
-            <Learning/>
-            <Curriculum/>
-            <Design/>
-            <Eligible/>
-            <Culture/>
-            <Fun/>
-        </div>
+        <BrowserRouter>
+            <div>
+                
+                <Switch>
+                    <Route path="/" component={LandingPage} exact/>
+                    <Route path="/software-developer" component={SoftwareDeveloper}/>
+                    <Route path="/product-designer" component={ProductDesigner}/>
+                    <Route path="/apply" component={Apply}/>
+                    <Route path="/journal" component={Journal}/>
+                    <Route path="/faq" component={Faq}/>  
+                </Switch>
+            </div>  
+        </BrowserRouter>  
     )
 }
 

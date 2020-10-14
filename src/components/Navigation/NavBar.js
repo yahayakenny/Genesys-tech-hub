@@ -1,6 +1,8 @@
 import React from 'react'
 import '../css/main.css';
-import logo from '../images/logo.png'
+import logo from '../images/logo.png';
+import { NavLink } from 'react-router-dom';
+
 
 export const NavBar = () => {
     return (
@@ -49,45 +51,27 @@ export const NavBar = () => {
                             <div className="collapse navbar-collapse text-center" id="navbarsExample11">
                                 <ul className="navbar-nav">
                                     <li className="nav-item active">
-                                        <a className="nav-link" href="#">HOME</a>
+                                        <NavLink to="/" className= "nav-link">HOME</NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">SOFTWARE DEVELOPERS</a>
+                                        <NavLink to="/software-developer"  className= "nav-link">SOFTWARE DEVELOPER</NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">PRODUCT DESIGNERS</a>
+                                        <NavLink to="/product-designer"  className= "nav-link">PRODUCT DESIGNER</NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">APPLY</a>
+                                        <NavLink to="/apply"  className= "nav-link">APPLY</NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">JOURNAL</a>
+                                        <NavLink to="/journal"  className= "nav-link">JOURNAL</NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">FAQ</a>
+                                        <NavLink to="/faq"  className= "nav-link">FAQ</NavLink>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </nav>
-                </div>
-            </div>
-            
-            <div className="third-nav">
-                <br></br>
-                <div className="container">
-                <div className="row">
-                    <div className="col-md-8">
-                        <h4>Coming soon: Learnable ‘20</h4>
-                        <br/>
-                        <h6 className = "lead" style = {{width: '80%'}}>We've started taking in applications for the next batch of learnable interns. Applications are on till the 21st of Febuary</h6>
-                    </div>
-                    <div className="col-md-4">
-                        <h6>Click link to download...</h6>
-                        <br/>
-                        <a className="" href="#"><h4>Learnable ‘20 Brochure</h4></a>
-                    </div>
-                </div>
                 </div>
             </div>
         </div>

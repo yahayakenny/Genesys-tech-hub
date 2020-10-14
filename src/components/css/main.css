@@ -101,7 +101,10 @@
     color: white;
     padding: 100px 0px;
 }
-
+.journal {
+  width: 100%;
+  margin-bottom: 20px;
+}
 
 @media(max-width: 767px){
     .product {
