@@ -9,6 +9,7 @@ import { Culture } from './Culture';
 import Fun from './Fun';
 import NavBar from '../Navigation/NavBar'
 import HomeJournal from './HomeJournal';
+import Footer from './Footer';
 
 export const LandingPage = () => {
     return (
@@ -23,6 +24,7 @@ export const LandingPage = () => {
             <Culture/>
             <Fun/>
             <HomeJournal/>
+            <Footer/>
         </div>
     )
 }

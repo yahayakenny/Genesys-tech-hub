@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import '../css/main.css';
+import NavBar from '../Navigation/NavBar';
 
 export const Apply = () => {
     return (
         <div>
-            Apply
+            <NavBar/>
         </div>
     )
 }

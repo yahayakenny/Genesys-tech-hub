@@ -5,12 +5,12 @@ import '../css/main.css';
 export const Culture = () => {
     return (
         <div className = "padding culture-container">
-            <div class="container">
-                <div class="row">
+            <div className="container">
+                <div className="row">
                     <div className="col-md-6 text-center">
                         <img src = {culture} className = "culture" />
                     </div>
-                    <div class="col-md-6  d-flex align-items-center">
+                    <div className="col-md-6  d-flex align-items-center">
                         <div>
                             <br></br>
                             <h1>Our Culture</h1>

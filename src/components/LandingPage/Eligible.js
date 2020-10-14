@@ -5,9 +5,9 @@ import '../css/main.css';
 export const Eligible = () => {
     return (
         <div className = "padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6  d-flex align-items-center">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-6  d-flex align-items-center">
                         <div>
                             <h1>Who is Eligible?</h1>
                             <br></br>

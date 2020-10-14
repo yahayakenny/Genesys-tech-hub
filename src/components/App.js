@@ -11,7 +11,6 @@ export const App = () => {
     return (
         <BrowserRouter>
             <div>
-                
                 <Switch>
                     <Route path="/" component={LandingPage} exact/>
                     <Route path="/software-developer" component={SoftwareDeveloper}/>

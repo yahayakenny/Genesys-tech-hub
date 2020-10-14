@@ -9,9 +9,9 @@ export const Fun = () => {
     return (
         <div>
             <div className = "padding">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6  d-flex align-items-center">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6  d-flex align-items-center">
                             <div>
                                 <h1>Learning can be fun</h1>
                                 <br></br>
@@ -29,12 +29,13 @@ export const Fun = () => {
         
             <div className="design-container">
                 <div className=" container">
-                    <div class="row">
+                    <div className="row">
                         <div className="col-md-7 text-center">
                             <img src = {experts} className = "experts" />
                         </div>  
-                        <div class="col-md-5  d-flex align-items-center">
+                        <div className="col-md-5  d-flex align-items-center">
                             <div>
+                                <br></br>
                                 <h1>Learn from the experts</h1>
                                 <br></br>
                                 <h6 className = "lead"> As a learnable intern, you will be learning from the best software developers and product designers our industry has to offer. You will spend the first 3 months in the classroom with industry experts who have a wealth of experience from developing amazing products for various customers in our industry.</h6>  
@@ -45,9 +46,9 @@ export const Fun = () => {
             </div>
 
             <div className = "padding">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6  d-flex align-items-center">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6  d-flex align-items-center">
                             <div>
                                 <h1>Learning doesn’t always have to be in the classroom.</h1>
                                 <br></br>
@@ -64,11 +65,11 @@ export const Fun = () => {
 
             <div className="knowledge-container">
                 <div className=" container">
-                    <div class="row">
+                    <div className="row">
                         <div className="col-md-7 text-center">
                             <img src = {culture} className = "culture" />
                         </div>  
-                        <div class="col-md-5  d-flex align-items-center">
+                        <div className="col-md-5  d-flex align-items-center">
                             <div>
                                 <br></br>
                                 <h1>Apply your knowledge</h1>

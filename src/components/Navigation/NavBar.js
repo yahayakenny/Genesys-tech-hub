@@ -17,7 +17,7 @@ export const NavBar = () => {
                         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                             
                             <li className="nav-item active">
-                                <a className="nav-link" href="#">LEARNABLE <span className="sr-only">(current)</span></a>
+                                <a className="nav-link" href="#" style ={{color: "#F5772F"}} >LEARNABLE <span className="sr-only">(current)</span></a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">AGORA</a>
@@ -37,7 +37,7 @@ export const NavBar = () => {
                                 <a className="nav-link" href="#">build a product with</a>
                             </li>
                             <li className="nav-item">
-                                <a className="btn btn-outline-dark"  href="#" role="button">DEVSTUDIO</a>  
+                                <a className="btn btn-outline-danger"  href="#" role="button">DEVSTUDIO</a>  
                             </li>
                         </ul>
                     </div>
