@@ -26,7 +26,6 @@ html, body {
 
 .third-nav {
   background-color: #eac435;
-  color: white;
   padding: 30px 40px;
 }
 
@@ -44,7 +43,6 @@ html, body {
   font-size: 67px;
   letter-spacing: 0.15 px;
   line-height: 80px;
- 
 }
 
 .video {
@@ -74,7 +72,7 @@ html, body {
     
 }
 
-.learning, .eligible, .culture, .fun, .experts, .classroom, .footer, .software {
+.learning, .eligible, .culture, .fun, .experts, .classroom, .footer, .software, .painter, .apply, .book {
     width: 100%;
 
 }
@@ -98,7 +96,6 @@ html, body {
   padding: 8px;
   font-size: 20px;
 }
-
 
 .curriculum, .design {
     width: 70%;
@@ -124,6 +121,7 @@ html, body {
     color: white;
     padding: 100px 0px;
 }
+
 .journal {
   width: 100%;
   margin-bottom: 20px;
@@ -157,8 +155,8 @@ a {
 .count-on {
   font-weight: 900;
   font-size: 60px;
-  letter-spacing: 0.15 px;
-  line-height: 55px;
+  letter-spacing: 0.19 px;
+  line-height: 61px;
   color: #03CEA4;
 
 }

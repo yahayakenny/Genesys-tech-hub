@@ -32,7 +32,7 @@ export const Software = () => {
                     </div>
 
                     <div style = {{width: "55%", margin: "0 auto"}} >  
-                        <h1>We expect you to</h1>
+                        <h1>We expect you to</h1><br></br>
                         <h6>Play nice with other people.</h6>
                         <h6>Be an actively engaging person. That means you are present, motivated, and social. You know how to communicate effectively with your teammates.</h6>
                         <h6>Love to code. You understand the basics of programming and object-oriented design and development.</h6>

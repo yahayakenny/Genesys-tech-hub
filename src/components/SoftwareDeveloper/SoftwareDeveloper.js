@@ -8,8 +8,7 @@ export const SoftwareDeveloper = () => {
     return (
         <div>
             <NavBar/>
-            <Software/>
-            
+            <Software/>  
         </div>
     )
 }
