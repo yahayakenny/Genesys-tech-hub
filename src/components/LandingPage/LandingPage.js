@@ -10,6 +10,7 @@ import Fun from './Fun';
 import NavBar from '../Navigation/NavBar'
 import HomeJournal from './HomeJournal';
 import Footer from './Footer';
+import {Logos } from './Logos'
 
 export const LandingPage = () => {
     return (
@@ -24,6 +25,7 @@ export const LandingPage = () => {
             <Culture/>
             <Fun/>
             <HomeJournal/>
+            <Logos/>
             <Footer/>
         </div>
     )

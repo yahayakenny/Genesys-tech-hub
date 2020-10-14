@@ -28,17 +28,17 @@ export const Apply = () => {
 
                     <div style = {{width: "50%", margin: "0 auto"}} >  
                         <h1>How to get in</h1>
-                        <h6>We are very deliberate with our selection process. We are on a quest to find amazing people who are passionate about learning and growing their careers in the software industry. To this end, we have designed our selection process to help us get such people.</h6><br></br>
+                        <h6 className="lead">We are very deliberate with our selection process. We are on a quest to find amazing people who are passionate about learning and growing their careers in the software industry. To this end, we have designed our selection process to help us get such people.</h6><br></br>
                         <h1>Online Application</h1>
-                        <h6>Introduce yourself to us by filling out our application form. When you’re done filling out the form, proceed to download our prep curriculum that contains everything you need to prepare for the physical and technical assessment.</h6><br></br>
+                        <h6 className="lead">Introduce yourself to us by filling out our application form. When you’re done filling out the form, proceed to download our prep curriculum that contains everything you need to prepare for the physical and technical assessment.</h6><br></br>
                         <h1>
                        Phone Call Interviews
                         </h1>
-                        <h6>We will reach out to you to discuss possible opportunities, ascertain where you fit in with us, and answer any questions you might have about the program. It’s supposed to be a chat, getting nervous defeats the aim.</h6><br></br>
+                        <h6 className="lead">We will reach out to you to discuss possible opportunities, ascertain where you fit in with us, and answer any questions you might have about the program. It’s supposed to be a chat, getting nervous defeats the aim.</h6><br></br>
                         <h1>Final assessment</h1>
-                        <h6>At this stage, we’ll get to meet you in person for the first time. You’ll be invited to the hub for a physical assessment that includes a technical assessment, a psychometric test and a face-to-face chat with our team.</h6><br></br>
+                        <h6 className="lead">At this stage, we’ll get to meet you in person for the first time. You’ll be invited to the hub for a physical assessment that includes a technical assessment, a psychometric test and a face-to-face chat with our team.</h6><br></br>
                         <h1>Get In</h1>
-                        <h6>If you make it to this stage, you can pack your bags and head down to the beautiful city of Enugu. We will join you on your journey to build that career of your dreams and provide all the help, support and love that we can muster along the way!</h6>
+                        <h6 className="lead">If you make it to this stage, you can pack your bags and head down to the beautiful city of Enugu. We will join you on your journey to build that career of your dreams and provide all the help, support and love that we can muster along the way!</h6>
                     </div>
                     <Footer/>
 
