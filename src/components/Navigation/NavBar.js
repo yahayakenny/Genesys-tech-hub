@@ -47,6 +47,9 @@ export const NavBar = () => {
             <div className = "lower-nav">
                 <div className="container">
                     <nav className="navbar navbar-expand-sm navbar-dark ">
+                        <button className="navbar-toggler navbar-toggler-btn" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon text-center"></span>
+                        </button>
                         <div className="mx-auto d-sm-flex d-block flex-sm-nowrap">
                             <div className="collapse navbar-collapse text-center" id="navbarsExample11">
                                 <ul className="navbar-nav">

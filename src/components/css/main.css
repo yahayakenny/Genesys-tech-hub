@@ -18,6 +18,8 @@ html, body {
 
 .lower-nav {
   background-color: #17255a;
+  padding: 50px;
+  
 }
 
 .navbar.upper-nav {
@@ -170,6 +172,13 @@ a {
 .padding-footer {
   padding: 20px 0px 0px 0px;
 }
+
+.navbar-toggler-btn {
+  width: 100%;
+  float: none;
+  margin-right: 0;
+}
+
 
 
 @media(max-width: 767px){
