@@ -17,7 +17,7 @@ export const Fun = () => {
                                 <br></br>
                                 <h6 className = "lead"> We believe learning should be a fun experience. For this reason, we don’t do all the learning in the classroom.</h6>
                                 <h6 className = "lead">The Learnable experience can not be complete without the bag of fun times which you’ll have. To us, every task is an opportunity to have some fun. But we do well to throw in a good number of activities to add to this. You will find yourself partaking in a lot of healthy activities such as cooking, sports, music, hangouts, and even random dates.</h6>
-                                <h6 className = "lead">Trust us when we say we know how to have fun.</h6><br></br>  
+                                <h6 className = "lead">Trust us when we say we know how to have fun.</h6><br></br> 
                             </div>   
                         </div>
                         <div className="col-md-6 text-center">
