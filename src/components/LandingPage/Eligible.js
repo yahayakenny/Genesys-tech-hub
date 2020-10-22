@@ -22,7 +22,7 @@ export const Eligible = () => {
                     </div>
                     
                     <div className="col-md-6 text-center">
-                        <img src = {eligible} className = "eligible" />
+                        <img src = {eligible} className = "eligible" alt = "" />
                     </div>
                 </div>
             </div> 

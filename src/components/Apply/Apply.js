@@ -19,11 +19,12 @@ export const Apply = () => {
                         </div>
                         <div className="col-md-5 text-center" >
                             <br></br><br></br>
-                            <img src = {apply} className = "apply" />     
+                            <img src = {apply} className = "apply" 
+                            alt = ""/>     
                         </div>
                     </div>
                     <div className="padding">  
-                        <img src = {book} className = "book text-center" />
+                        <img src = {book} className = "book text-center" alt = ""/>
                     </div>
 
                     <div style = {{width: "50%", margin: "0 auto"}} >  

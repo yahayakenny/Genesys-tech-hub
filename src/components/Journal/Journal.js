@@ -12,7 +12,8 @@ export const Journal = () => {
             <div className="container padding">
                 <div className="row">
                     <div className="col-md-6">
-                        <img src = {book} style={{width: "100%"}}/>  
+                        <img src = {book} style={{width: "100%"}}
+                        alt = ""/>  
                     </div>
                     <div className="col-md-6">
                         <br></br>

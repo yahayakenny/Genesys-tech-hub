@@ -8,7 +8,7 @@ export const Learning = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 ">
-                        <img src = {learning} className = "learning " />
+                        <img src = {learning} className = "learning " alt = "" />
                     </div>        
                     <div className="col-md-6 d-flex align-items-center">
                         <div>

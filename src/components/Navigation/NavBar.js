@@ -9,7 +9,7 @@ export const NavBar = () => {
         <div>
             <div className="container">
                 <nav className="navbar navbar-expand-lg navbar-light upper-nav">
-                    <a className="navbar-brand" href="#"><img src = {logo} className="logo"/></a>
+                    <div className="navbar-brand"><img src = {logo} className="logo" alt = ""/></div>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -17,27 +17,27 @@ export const NavBar = () => {
                         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                             
                             <li className="nav-item active">
-                                <a className="nav-link" href="#" style ={{color: "#F5772F"}} >LEARNABLE <span className="sr-only">(current)</span></a>
+                                <a className="nav-link" href="#top" style ={{color: "#F5772F"}} >LEARNABLE <span className="sr-only">(current)</span></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">AGORA</a>
+                                <a className="nav-link" href="top#">AGORA</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">STARTZONE</a>
+                                <a className="nav-link" href="top#">STARTZONE</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">ABOUT</a>
+                                <a className="nav-link" href="#top">ABOUT</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">CONTACT</a>
+                                <a className="nav-link" href="#top">CONTACT</a>
                             </li>
                         </ul>
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                                <a className="nav-link" href="#">build a product with</a>
+                                <a className="nav-link" href="#top">build a product with</a>
                             </li>
                             <li className="nav-item">
-                                <a className="btn btn-outline-danger"  href="#" role="button">DEVSTUDIO</a>  
+                                <a className="btn btn-outline-danger"  href="#top" role="button">DEVSTUDIO</a>  
                             </li>
                         </ul>
                     </div>

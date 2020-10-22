@@ -8,7 +8,8 @@ export const Culture = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 text-center">
-                        <img src = {culture} className = "culture" />
+                        <img src = {culture} className = "culture" 
+                        alt = ""/>
                     </div>
                     <div className="col-md-6  d-flex align-items-center">
                         <div>

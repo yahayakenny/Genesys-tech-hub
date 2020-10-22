@@ -11,22 +11,22 @@ export const Logos = () => {
         <div className = "container padding">
             <div className="row">
                     <div className="col">
-                        <img src = {footer6} className = "footer"/>
+                        <img src = {footer6} className = "footer" alt = ""/>
                     </div>
                     <div className="col">
-                        <img src = {footer1} className = "footer"/>
+                        <img src = {footer1} className = "footer" alt = ""/>
                     </div>
                     <div className="col">
-                        <img src = {footer2} className = "footer"/>
+                        <img src = {footer2} className = "footer" alt = ""/>
                     </div>
                     <div className="col">
-                        <img src = {footer3} className = "footer"/>
+                        <img src = {footer3} className = "footer" alt = ""/>
                     </div>
                     <div className="col">
-                        <img src = {footer4} className = "footer"/>
+                        <img src = {footer4} className = "footer" alt = ""/>
                     </div>
                     <div className="col">
-                        <img src = {footer5} className = "footer"/>
+                        <img src = {footer5} className = "footer" alt = ""/>
                     </div>
                 </div>
         </div>

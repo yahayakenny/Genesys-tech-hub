@@ -19,16 +19,16 @@ export const Software = () => {
                             </h6>
                             <br></br><br></br> 
 
-                            <h1 class = "count-on">“You are someone people can count on. Every day, you come in ready to make great things happen.”</h1>                    
+                            <h1 className = "count-on">“You are someone people can count on. Every day, you come in ready to make great things happen.”</h1>                    
                         </div>
                         <div className="col-md-5 text-center" >
                             <br></br><br></br>
-                            <img src = {people} className = "photo" />     
+                            <img src = {people} className = "photo" alt = ""/>     
                         </div>
                     </div>
 
                     <div className="padding">  
-                        <img src = {software} className = "software text-center" />
+                        <img src = {software} className = "software text-center"  alt = ""/>
                     </div>
 
                     <div style = {{width: "55%", margin: "0 auto"}} >  

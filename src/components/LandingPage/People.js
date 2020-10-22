@@ -16,7 +16,7 @@ export const People = () => {
                         <br></br><br></br>                     
                     </div>
                     <div className="col-md-6 text-center">
-                        <img src = {people} className = "photo" />
+                        <img src = {people} className = "photo" alt = "" />
                     </div>
                 </div>
             </div>

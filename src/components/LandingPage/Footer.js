@@ -5,7 +5,7 @@ import footer7 from '../images/footer7.png';
 
 export const Footer = () => {
     return (
-        <div className = "padding ">
+        <div className = "padding-footer">
             <div className="container">
                 <div className="container footer-container">
                     <div className="row">
@@ -15,7 +15,7 @@ export const Footer = () => {
                         </div>
                         <div className="col-md-3 d-flex align-items-center">
                             <div>
-                                <input type="email" className="form-control"  placeholder="YOUR EMAIL" className= "input"/>
+                                <input type="email" className="form-control input"  placeholder="YOUR EMAIL"/>
                                 <br></br><br></br>
                                 <h6>View Privacy Policy</h6>
                                 <br></br>
@@ -30,34 +30,34 @@ export const Footer = () => {
                     </div>
                 </div>
 
-                <div className="container padding">
+                <div className="container padding-footer">
                     <div className="row">
                         <div className="col-md-2 d-flex align-items-center">
                             <div>
-                                <h6><a href = "#">BUILD SOFTWARE</a></h6>
-                                <h6><a href = "#">DESIGN DIFFERENT</a></h6>
-                                <h6><a href = "#">APPLY YOUR KNOWLEDGE</a></h6>
-                                <h6><a href = "#">FAQ</a></h6>
+                                <h6>BUILD SOFTWARE</h6>
+                                <h6>DESIGN DIFFERENT</h6>
+                                <h6>APPLY YOUR KNOWLEDGE</h6>
+                                <h6>FAQ</h6>
                             </div>   
                         </div>
                         <div className="col-md-4 d-flex align-items-center">
                             <div>
                                 <br></br>
                                 <h6>Our Local Campus center: Kilometer 7, Enugu/Port Harcourt, Expressway, Centenary City, Enugu. Nigeria</h6>
-                                <h6><a href = "#">GET IN TOUCH</a></h6>
+                                <h6><a href = "#demo">GET IN TOUCH</a></h6>
                                 <br></br>
                             </div>   
                         </div>
                         <div className="col-md-3 d-flex align-items-center">
                         <br></br>
-                            <img src = {footer7} className = "footer" style = {{width: '70%'}}/>
+                            <img src = {footer7} className = "footer" style = {{width: '70%'}} alt = ""/>
                         </div>
                         <div className="col-md-3 d-flex align-items-center">
                             <div>
                                 <br></br>
                                 <h6>Learnable is proud to be a collaborative effort of all the arms of our product team</h6>
                                 <br></br>
-                                <h6><a href = "#">HEAD TO DEVSTUDIO</a></h6>
+                                <h6><a href = "demo">HEAD TO DEVSTUDIO</a></h6>
                             </div>   
                         </div>
                     </div>

@@ -12,28 +12,29 @@ export const HomeJournal = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 col-lg-3 col-sm-6">
-                        <img src = {journal1} className="journal"/>  
+                        <img src = {journal1} className="journal" 
+                        alt = ""/>  
                         <h4>Learn Design Thinking like a Pro and Build Projects that People will care about</h4>
                         <br></br> 
                         <h6 className="lead">David Mong, Apr 9, 2020</h6>
                         <br></br>
                     </div>
                     <div className="col-md-6 col-lg-3 col-sm-6">
-                        <img src = {journal2} className="journal"/> 
+                        <img src = {journal2} className="journal" alt = ""/> 
                         <h4>Learn Design Thinking like a Pro and Build Projects that People will care about</h4> 
                         <br></br>
                         <h6 className="lead">David Mong, Apr 9, 2020</h6>
                         <br></br>
                     </div>
                     <div className="col-md-6 col-lg-3 col-sm-6">
-                        <img src = {journal3} className="journal"/> 
+                        <img src = {journal3} className="journal" alt = ""/> 
                         <h4>Learn Design Thinking like a Pro and Build Projects that People will care about</h4> 
                         <br></br>
                         <h6 className="lead">David Mong, Apr 9, 2020</h6>
                         <br></br>
                     </div>
                     <div className="col-md-6 col-lg-3 col-sm-6">
-                        <img src = {journal4} className="journal"/>
+                        <img src = {journal4} className="journal" alt = ""/>
                         <h4>Learn Design Thinking like a Pro and Build Projects that People will care about</h4>  
                         <br></br>
                         <h6 className="lead">David Mong, Apr 9, 2020</h6>

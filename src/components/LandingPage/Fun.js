@@ -21,7 +21,7 @@ export const Fun = () => {
                             </div>   
                         </div>
                         <div className="col-md-6 text-center">
-                            <img src = {fun} className = "fun" />
+                            <img src = {fun} className = "fun" alt = ""/>
                         </div>  
                     </div>
                 </div>
@@ -31,7 +31,7 @@ export const Fun = () => {
                 <div className=" container">
                     <div className="row">
                         <div className="col-md-7 text-center">
-                            <img src = {experts} className = "experts" />
+                            <img src = {experts} className = "experts" alt = ""/>
                         </div>  
                         <div className="col-md-5  d-flex align-items-center">
                             <div>
@@ -57,7 +57,7 @@ export const Fun = () => {
                         </div>
                         <div className="col-md-6 text-center">
                             <br></br>
-                            <img src = {classroom} className = "classroom" />
+                            <img src = {classroom} className = "classroom"  alt = ""/>
                         </div>  
                     </div>
                 </div>
@@ -67,7 +67,7 @@ export const Fun = () => {
                 <div className=" container">
                     <div className="row">
                         <div className="col-md-7 text-center">
-                            <img src = {culture} className = "culture" />
+                            <img src = {culture} className = "culture" alt = ""/>
                         </div>  
                         <div className="col-md-5  d-flex align-items-center">
                             <div>
@@ -81,10 +81,103 @@ export const Fun = () => {
                 </div>
             </div>
 
+            <div className="container faq padding">
+                <h1 style={{fontSize: "100px"}}>FAQ</h1>
+                <br></br><br></br>
+                <div>
+                    <div className= "faq-flex">
+                        <h6>How many people can attend a course?</h6>
+                        <button class="btn" data-toggle="collapse" style = {{marginTop: "-8px"}}data-target="#demo1"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div id="demo1" class="collapse">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae error perspiciatis, modi doloremque nisi, at doloribus molestias facilis debitis sunt ad cupiditate ut rem quas. Molestias ducimus itaque harum asperiores?
+                    </div>
+                </div><hr></hr>
+                <div>
+                    <div className= "faq-flex">
+                        <h6>What’s the learning experience like?</h6>
+                        <button class="btn" data-toggle="collapse" style = {{marginTop: "-8px"}}data-target="#demo2"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div id="demo2" class="collapse">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae error perspiciatis, modi doloremque nisi, at doloribus molestias facilis debitis sunt ad cupiditate ut rem quas. Molestias ducimus itaque harum asperiores?
+                    </div>
+                </div><hr></hr>
+                <div>
+                    <div className= "faq-flex">
+                        <h6>Who are the coaches?</h6>
+                        <button class="btn" data-toggle="collapse" style = {{marginTop: "-8px"}}data-target="#demo3"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div id="demo3" class="collapse">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae error perspiciatis, modi doloremque nisi, at doloribus molestias facilis debitis sunt ad cupiditate ut rem quas. Molestias ducimus itaque harum asperiores?
+                    </div>
+                </div><hr></hr>
+                <div>
+                    <div className= "faq-flex">
+                        <h6>How far in advance should we book?</h6>
+                        <button class="btn" data-toggle="collapse" style = {{marginTop: "-8px"}}data-target="#demo4"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div id="demo4" class="collapse">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae error perspiciatis, modi doloremque nisi, at doloribus molestias facilis debitis sunt ad cupiditate ut rem quas. Molestias ducimus itaque harum asperiores?
+                    </div>
+                </div><hr></hr>
+                <div>
+                    <div className= "faq-flex">
+                        <h6>Can you customise your courses?</h6>
+                        <button class="btn" data-toggle="collapse" style = {{marginTop: "-8px"}}data-target="#demo5"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div id="demo5" class="collapse">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae error perspiciatis, modi doloremque nisi, at doloribus molestias facilis debitis sunt ad cupiditate ut rem quas. Molestias ducimus itaque harum asperiores?
+                    </div>
+                </div><hr></hr> 
+            </div>
 
-
-
-
+            <div style={{marginTop: "-20px"}}> 
+            <div className= "faq text-center">
+                <a data-toggle="collapse" href="#collapseExample"  aria-expanded="false" aria-controls="collapseExample">
+                    SEE ALL
+                </a>
+            </div><br></br>
+            <div class="collapse container" id="collapseExample" className = "faq">
+                <div>
+                    <div className= "faq-flex">
+                        <h6>Can you customise your courses?</h6>
+                        <button class="btn" data-toggle="collapse" style = {{marginTop: "-8px"}}data-target="#demo10"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div id="demo10" class="collapse">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae error perspiciatis, modi doloremque nisi, at doloribus molestias facilis debitis sunt ad cupiditate ut rem quas. Molestias ducimus itaque harum asperiores?
+                    </div>
+                </div><hr></hr>
+                <div > 
+                    <div className= "faq-flex">
+                        <h6>Can you customise your courses?</h6>
+                        <button class="btn" data-toggle="collapse" style = {{marginTop: "-8px"}}data-target="#demo11"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div id="demo11" class="collapse">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae error perspiciatis, modi doloremque nisi, at doloribus molestias facilis debitis sunt ad cupiditate ut rem quas. Molestias ducimus itaque harum asperiores?
+                    </div>
+                </div><hr></hr>
+                <div >
+                    <div className= "faq-flex">
+                        <h6>Can you customise your courses?</h6>
+                        <button class="btn" data-toggle="collapse" style = {{marginTop: "-8px"}}data-target="#demo12"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div id="demo12" class="collapse">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae error perspiciatis, modi doloremque nisi, at doloribus molestias facilis debitis sunt ad cupiditate ut rem quas. Molestias ducimus itaque harum asperiores?
+                    </div>
+                </div><hr></hr>
+                <div >
+                    <div className= "faq-flex">
+                        <h6>Can you customise your courses?</h6>
+                        <button class="btn" data-toggle="collapse" style = {{marginTop: "-8px"}}data-target="#demo13"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div id="demo13" class="collapse">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae error perspiciatis, modi doloremque nisi, at doloribus molestias facilis debitis sunt ad cupiditate ut rem quas. Molestias ducimus itaque harum asperiores?
+                    </div>
+                </div><hr></hr>
+            </div>
+            
+            </div>
+            
         </div>
            
        

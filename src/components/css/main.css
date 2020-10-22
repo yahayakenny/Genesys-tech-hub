@@ -74,6 +74,7 @@ html, body {
 .footer-icons {
   display: flex;
   justify-content: center;
+  margin-top: 40px;
   
 }
 
@@ -133,7 +134,7 @@ html, body {
 .footer-container {
   margin-top: 50px;
   background-color: #eac435;
-  padding: 100px 20px; 
+  padding: 50px 20px; 
 }
 
 a {
@@ -155,6 +156,22 @@ a {
   color: #03CEA4;
 }
 
+.faq {
+  margin: 0 auto;
+  width: 50%;
+}
+
+
+.faq-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.padding-footer {
+  padding: 20px 0px 0px 0px;
+}
+
+
 @media(max-width: 767px){
     .product {
         position: absolute;
@@ -168,5 +185,10 @@ a {
         right: 100px;
         width: 50%;
         top: -60px;
+    }
+
+    .faq {
+      margin: 0 auto;
+      width: 80%;
     }
 }

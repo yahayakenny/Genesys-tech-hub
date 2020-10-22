@@ -29,12 +29,12 @@ export const ProductDesigner = () => {
                         </div>
                         <div className="col-md-5 text-center" >
                             <br></br><br></br>
-                            <img src = {designer} className = "photo" />     
+                            <img src = {designer} className = "photo"  alt = ""/>     
                         </div>
                     </div>
 
                     <div className="padding">  
-                        <img src = {painter} className = "painter text-center" />
+                        <img src = {painter} className = "painter text-center" alt = ""/>
                     </div>
 
                     <div style = {{width: "55%", margin: "0 auto"}} >  

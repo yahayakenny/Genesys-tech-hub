@@ -19,7 +19,7 @@ export const Curriculum = () => {
                         </div>             
                     </div>
                     <div className="col-md-6 text-center">
-                        <img src = {curriculum} className = "curriculum " />
+                        <img src = {curriculum} className = "curriculum " alt = ""/>
                     </div>
                 </div>
             </div>    
