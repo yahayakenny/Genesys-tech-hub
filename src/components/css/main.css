@@ -218,5 +218,14 @@ a {
       width: 90%
     }
 
+    .count-on {
+      font-weight: 900;
+      font-size: 40px;
+      letter-spacing: 0.12px;
+      line-height: 40px;
+      color: #03CEA4;
+    }
+    
+
 
 }

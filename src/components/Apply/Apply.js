@@ -27,7 +27,7 @@ export const Apply = () => {
                         <img src = {book} className = "book text-center" alt = ""/>
                     </div>
 
-                    <div style = {{width: "50%", margin: "0 auto"}} >  
+                    <div className="software-expect" >  
                         <h1>How to get in</h1>
                         <h6 className="lead">We are very deliberate with our selection process. We are on a quest to find amazing people who are passionate about learning and growing their careers in the software industry. To this end, we have designed our selection process to help us get such people.</h6><br></br>
                         <h1>Online Application</h1>
