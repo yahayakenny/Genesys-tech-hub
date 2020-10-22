@@ -34,11 +34,11 @@ export const Hero = () => {
                             <h6 className= "lead">Learnable is the perfect product development internship program brought to you by Genesys.</h6>
                         </div>
                     </div>
-                    <br/><br/><br/><br/><br/><br/><br/><br/>
+                    <br/><br/><br/><br/><br/><br/>
 
                     <div className="product-images">
                         <img src = {video} alt = "" className = "video" />
-                        <br/><br/><br/>
+                        <br/>
                         <div className="product">
                             <img src = {product} className = "product" alt = ""/>
                             <img src = {dev} className = "dev" alt = ""/>

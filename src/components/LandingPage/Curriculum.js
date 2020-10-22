@@ -5,7 +5,6 @@ export const Curriculum = () => {
     return (
         <div className="padding">
             <div className="container">
-                <br></br><br></br>
                 <div className="row">
                     <div className="col-md-6 d-flex align-items-center">
                         <div>
