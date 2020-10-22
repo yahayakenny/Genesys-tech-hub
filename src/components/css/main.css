@@ -38,7 +38,7 @@ html, body {
 
 .hero h1 {
   font-weight: 900;
-  font-size: 67px;
+  font-size: 76px;
   letter-spacing: 0.15 px;
   line-height: 80px;
 }
@@ -179,6 +179,11 @@ a {
   margin-right: 0;
 }
 
+.software-expect{
+  margin: 0 auto;
+  width: 65%
+}
+
 
 
 @media(max-width: 767px){
@@ -200,4 +205,18 @@ a {
       margin: 0 auto;
       width: 80%;
     }
+
+    .hero h1 {
+      font-weight: 900;
+      font-size: 60px;
+      letter-spacing: 0.15 px;
+      line-height: 60px;
+    }
+
+    .software-expect{
+      margin: 0 auto;
+      width: 90%
+    }
+
+
 }

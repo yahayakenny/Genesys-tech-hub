@@ -31,7 +31,7 @@ export const Software = () => {
                         <img src = {software} className = "software text-center"  alt = ""/>
                     </div>
 
-                    <div style = {{width: "60%", margin: "0 auto"}}  >  
+                    <div className="software-expect"  >  
                         <h1>We expect you to</h1><br></br>
                         <h6>Play nice with other people.</h6><br></br>
                         <h6>Be an actively engaging person. That means you are present, motivated, and social. You know how to communicate effectively with your teammates.</h6><br></br>

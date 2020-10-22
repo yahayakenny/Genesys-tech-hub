@@ -23,7 +23,7 @@ export const ProductDesigner = () => {
                             <br></br><br></br> 
 
 
-                            <h1 class = "count-on" style={{color: '#F5772F'}}>“The greats weren’t great because at birth they could paint. The greats were great because they painted a lot.” <br></br><br></br>
+                            <h1 className = "count-on" style={{color: '#F5772F'}}>“The greats weren’t great because at birth they could paint. The greats were great because they painted a lot.” <br></br><br></br>
                             - Macklemore
                             </h1>                    
                         </div>
@@ -37,7 +37,7 @@ export const ProductDesigner = () => {
                         <img src = {painter} className = "painter text-center" alt = ""/>
                     </div>
 
-                    <div style = {{width: "55%", margin: "0 auto"}} >  
+                    <div className="software-expect" >  
                         <h1>We expect you to</h1><br></br>
                         <h6>Play nice with other people.</h6>
                         <h6>Be an actively engaging person. That means you are present, motivated, and social. You know how to communicate effectively with your teammates.</h6>
